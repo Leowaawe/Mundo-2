@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.menu div{
+    background-color: #e0e0e0;
+    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.menu div img{
+    width: auto;
+    height: 200px;
+}
+
+h5{
+    text-shadow: 1px 1px 2px  #7aa1e9;
+}
+
+.menu ul, ol li{
+    flex-direction: column;
+    list-style: circle;
+    gap: 8px;
+}
+
+ol li{
+    list-style: decimal;
+}
+
+hr {
+    border: solid;
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+
